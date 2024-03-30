@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Gaurangi Garg</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="section section-home">
+            <div class="container">
+                <h1>Hey! I'm Gaurangi Garg</h1>
+            </div>
+        </section>
+        
+        <section id="about" class="section section-about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>As a software engineer, I thrive on transforming complex ideas into elegant solutions. Cultivating a deep understanding of software architecture and design principles, I leverage my expertise to deliver scalable and maintainable code. With a commitment to continuous improvement, I embrace challenges as opportunities for growth, pushing the boundaries of innovation with each endeavor. Whether collaborating with cross-functional teams or leading projects autonomously, I thrive in dynamic environments, delivering impactful solutions that empower businesses and elevate user experiences.</p>
+            </div>
+        </section>
+        
+        <section id="portfolio" class="section section-portfolio">
+            <div class="container">
+                <h2>Portfolio</h2>
+                <div class="portfolio-items">
+                    <div class="portfolio-item">
+                        <img src="p1.jpg" alt="Project 1">
+                        <div class="overlay">
+                            <h3>Doctors on Hand</h3>
+                            <p>The principle idea of this project is to create an app via which patients will not have to look for doctors. This app will find you the most suitable/expert and nearest doctor according to your disease.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="p2.jpg" alt="Project 2">
+                        <div class="overlay">
+                            <h3>Personality Analysis</h3>
+                            <p>This project concentrates on analyzing one’s personality on the basis of what a user shares on their social media sites. Let us take Twitter for example, a user’s tweets are gathered from his profile, pre-processed, features are pulled, and then sent to a personality prediction algorithm. The best part of this project is that the person can comprehend the outcomes with 8 various types of graphs which are rendered as output displaying percentages of each trait.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="p3.jpeg" alt="Project 3">
+                        <div class="overlay">
+                            <h3>Setting-Up Personal Home Cloud</h3>
+                            <p>What if we have a central repository for all our photos, videos, and music that are already stored on various devices so that these files are available on not only the devices on the home broadband network but anywhere in this world? All members of the family with access to the network would be able to access the files, creating a common space for sharing content. A network access storage (NAS) drive with a home Cloud setup will come to your rescue</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="section section-contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form id="contact-form" action="">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
